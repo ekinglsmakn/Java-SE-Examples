@@ -11,15 +11,6 @@ public class BubbleSortArrays {
 
     }
 
-    private static void show(int[] array) {
-
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] +" ");
-        }
-        System.out.println();
-
-    }
-
     private static int[] sort(int[] array) {
 
         int temp =0;
@@ -31,14 +22,18 @@ public class BubbleSortArrays {
                     temp = array[i];
                     array[i] = array[j];
                     array[j] = temp;
-
                 }
-
-
             }
         }
-
-
         return array;
+    }
+
+    private static void show(int[] array) {
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] +" ");
+        }
+        System.out.println();
+
     }
 }

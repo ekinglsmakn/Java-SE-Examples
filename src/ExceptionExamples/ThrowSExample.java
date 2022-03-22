@@ -6,7 +6,6 @@ public class ThrowSExample {
         try {
             method1();
 
-
         } catch (ArithmeticException e) {
 
             e.printStackTrace();
@@ -19,7 +18,7 @@ public class ThrowSExample {
     private static void method2() {
         String value = null;
         value.toString();
-        //Null Pointer exception oluşur
+        //Value içi Null olduğu için Null Pointer Exception oluşur
     }
 
     private static void method1()
