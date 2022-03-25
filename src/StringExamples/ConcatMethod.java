@@ -3,7 +3,8 @@ package StringExamples;
 public class ConcatMethod {
     /*
     *Concat: Stringleri birleştirir.
-    *        İçine çift tırnak içinde string de alabilir. String olarak tanımlanmış değişken de alabilir.
+    *        İçine çift tırnak içinde string de alabilir, String olarak tanımlanmış değişken de alabilir.
+    *        Geriye String döndürür
     *
     * */
     public static void main(String[] args) {
